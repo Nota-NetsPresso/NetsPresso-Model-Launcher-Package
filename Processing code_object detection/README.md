@@ -1,6 +1,6 @@
-# NetsPresso whl package
+# NetsPresso whl package for object detection models
 
-To create NetsPresso whl package, please modify the 'example.py' to fit the model file you want to use.
+Please modify the 'example.py' for your model to include processing part with the model in the NetsPresso whl package.
 
 ## A common part
 1. preprocess and postprocess functions must be defined and can be modified if necessary. As defined in the example file, the output of the preprocess must be in a form that the model can infer. The input of postprocess must be the result of the model's inference.
